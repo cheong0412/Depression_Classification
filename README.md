@@ -27,7 +27,7 @@
 
 
 ## 분석 결과
-### 로그 변환 전, 후 비교
+### 1. 로그 변환 전, 후 비교
 - 샘플 피처(AB.C.alpha.r.O1)에 대한 로그 변환 전, 후 비교
 <img width="1469" height="436" alt="log before_after" src="https://github.com/user-attachments/assets/01278a1e-bb56-417f-ac83-628490cb97ac" />
 
@@ -41,7 +41,7 @@
 출력: 우울증 / 건강 분류
 <img width="1310" height="283" alt="Model architecture" src="https://github.com/user-attachments/assets/a6df24d6-ab37-4854-baff-7ee602c72c55" />
 
-### 결론
+### 4. 결론
 - Transformer 모델은 정확도 81.37%, F1 점수 80.32%, 정밀도 82.36%, 그리고 재현율 81.37% 달성
 - 우울증 분류의 재현율은 81%였으며, 일부 경우 오분류 발생
 - ROC AUC가 0.826이므로 모델의 분류 성능 개선 필요
